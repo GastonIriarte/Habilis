@@ -3,7 +3,7 @@ body{
     margin: 0%;
     padding: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #FFA41C;
+    color:black;
     background-color: white;
 }
 /* Esto es header*/
@@ -437,3 +437,26 @@ footer div{
     
     
 }
+/*Animaciones*/
+
+    .img-prof:hover{
+    animation: movimiento 4s;
+    }
+
+    @keyframes movimiento {
+        10%{
+            border-radius: 30%;
+        }
+        25%{
+            border-radius: 40%;
+        } 
+        50%{
+            border-radius: 50%;
+        }
+        75%{
+            border-radius: 30%;
+        }
+        100%{
+            border-radius: 20%;
+        }
+    }
